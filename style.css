@@ -13,7 +13,6 @@ html
   font-style: normal;
 }
 
-
 .pt-mono-regular 
 {
   font-family: "Inconsolata", monospace;
@@ -146,4 +145,9 @@ a:link,a:visited
 .aligncenter 
 {
     text-align: center;
+}
+
+footer
+{
+  font-size:14px;
 }
