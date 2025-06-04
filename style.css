@@ -1,0 +1,149 @@
+/* general styles used for page layout.*/
+html
+{
+  margin-left:2%;
+  height: 100%;
+  width: 100%;
+}
+
+.over-the-rainbow-regular 
+{
+  font-family: "Over the Rainbow", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.pt-mono-regular 
+{
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body
+{
+  background: #19181D;
+  font-size: 16px;
+  color: #ef7a6c;
+  font-family: "Inconsolata", monospace;
+  margin-left:40px;
+  margin-right:100px;
+}
+
+p
+{
+  font-size:16px;
+}
+
+.bold
+{
+  display:inline;
+  font-weight: 700;
+}
+
+img
+{
+  opacity:0.2;
+}
+
+h1
+{
+  text-align: left;
+  color: #ff006d;
+  font-size: 45px;
+  font-family: "Over the Rainbow", monospace;
+}
+
+h4
+{
+  text-decoration: underline;
+  font-size:24px;
+}
+
+ul
+{
+  padding-left: 0px;
+  font-size:16px;
+}
+
+li 
+{
+  list-style-type: none; 
+  font-size:16px;
+}
+
+/* styles used for the navigation bar and links */
+button.table-button
+{
+  color: white;
+  font-size: 22px;
+  font-family: "Courier New", monospace;
+  padding: 7px 20px;
+  border-radius: 5px;
+  margin: 0px 0px 0px 20px;
+  background-color: transparent;
+  border: 3px solid transparent; 
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+button.table-button a 
+{
+  text-decoration: none;
+  color: #fff;
+}
+
+table
+{
+  height: 100px;
+  width: 100%;
+  opacity: 0.9;
+  background-position: center;
+  border-collapse: collapse;
+  background-size: 100% 100%;
+}
+
+tr,td
+{
+  font-weight: bold;
+  top:50%;
+  bottom:50%;
+  margin:auto;
+  padding:5px;
+  font-size:20px;
+}
+
+.header 
+{
+  padding: 0.1px;
+  text-align: left;
+  background: #19181D;
+  color: black;
+  font-size: 22px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+/* styles used for links */
+a:link,a:visited
+{
+  color:#f3774d;
+  text-decoration: none;
+  background-color:transparent;
+}
+
+/* centering styles */
+.center-image
+{
+  top:50%;
+  bottom:50%;
+  margin:auto;
+}
+
+.aligncenter 
+{
+    text-align: center;
+}
