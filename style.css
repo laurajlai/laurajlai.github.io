@@ -27,8 +27,11 @@ body
   font-size: 16px;
   color: #ef7a6c;
   font-family: "Inconsolata", monospace;
-  margin-left:40px;
-  margin-right:100px;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  max-width: 100em;
+  margin: auto;
   overflow-x: hidden;
 }
 
