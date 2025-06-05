@@ -1,7 +1,7 @@
 /* general styles used for page layout.*/
 html
 {
-  margin-left:2%;
+  /*margin-left:2%;*/
   height: 100%;
   width: 100%;
   overflow-x:hidden;
