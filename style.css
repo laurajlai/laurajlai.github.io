@@ -46,11 +46,6 @@ p
   font-weight: 700;
 }
 
-img
-{
-  opacity:0.2;
-}
-
 h1
 {
   text-align: left;
@@ -118,7 +113,7 @@ tr,td
 /* styles used for links */
 a:link,a:visited
 {
-  color:#f3774d;
+  color:#eda187;
   text-decoration: none;
   background-color:transparent;
 }
